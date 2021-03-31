@@ -1,22 +1,5 @@
 const result = document.getElementById('result')
 const submit = document.getElementById('submit')
-// function binary (e){
-//     e.preventDefault()
-
-//     let num = document.getElementById('number1').value
-//     if(num === ''){
-//         alert('Wrong')
-//     }else if(num < 0 ){
-//         alert('wrong')
-//     }else{
-//         result.style.visibility = "visible"
-//     }
-
-//     // let binaryNumber = Number(num).toString(2)
-//     // result.innerHTML = binaryNumber
-// }
-// submit.addEventListener('click',binary)
-
 function BmICalculator(e){
     e.preventDefault()
     let num = document.getElementById('number1').value
